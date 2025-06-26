@@ -1,0 +1,43 @@
+/* * {
+    outline: 2px solid red;
+
+} */
+
+body {
+    margin:0;
+    overflow: auto;
+    font-family: segoe 'Segoe UI', sans-serif;
+    height:auto;
+}
+
+.header {
+    color:white;
+    background-color: tan;
+    padding: 2%;
+}
+
+.body {
+    background-color: lightgoldenrodyellow;
+}
+
+#book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+    gap: 5px;
+}
+
+.book-card {
+    width: 20%;
+    height: 30%;
+    padding: 2%;
+    background-color:linen;
+    border-radius: 2%;
+    color: grey;
+    font-size: 12px;
+}
+
+.book-title-text {
+    color:black;
+}
